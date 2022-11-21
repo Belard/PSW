@@ -11,7 +11,12 @@ public final class App {
      * Says hello to the world.
      * @param args The arguments of the program.
      */
+
+
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Properties properties = new Properties();
+        properties.setup();
+        System.out.println("Hello World! " + properties.blue_1.get_rent(2));
+
     }
 }
