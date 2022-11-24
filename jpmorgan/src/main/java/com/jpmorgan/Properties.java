@@ -1,5 +1,7 @@
 package com.jpmorgan;
 
+import scala.util.Random;
+
 enum action_list {
     GET_A_LUCKY_CARD,
     GET_A_COMMUNITY_CARD,
@@ -115,46 +117,225 @@ class Actions {
     }
 }
 
+class PeopleInJail {
+  boolean in_jail = false;
+  int turns_in_jail = 0;
+}
+
+class Jail extends Actions {
+  PeopleInJail player1;
+  PeopleInJail player2;
+  PeopleInJail player3;
+  PeopleInJail player4;
+  PeopleInJail player5;
+  PeopleInJail player6;
+  PeopleInJail player7;
+  PeopleInJail player8;
+
+  void SetJail(player_list player) {
+      switch(player) {
+          case PLAYER_1:
+            player1.in_jail = true;
+            player1.turns_in_jail = 3;
+            break;
+          case PLAYER_2:
+            player2.in_jail = true;
+            player2.turns_in_jail = 3;
+            break;
+          case PLAYER_3:
+            player3.in_jail = true;
+            player3.turns_in_jail = 3;
+            break;
+          case PLAYER_4:
+            player4.in_jail = true;
+            player4.turns_in_jail = 3;
+            break;
+          case PLAYER_5:
+            player5.in_jail = true;
+            player5.turns_in_jail = 3;
+            break;
+          case PLAYER_6:
+            player6.in_jail = true;
+            player6.turns_in_jail = 3;
+            break;
+          case PLAYER_7:
+            player7.in_jail = true;
+            player7.turns_in_jail = 3;
+            break;
+          case PLAYER_8:
+            player8.in_jail = true;
+            player8.turns_in_jail = 3;
+            break;
+          default:
+            break;
+      }
+  }
+  void UnsetJail(player_list player) {
+          switch(player) {
+          case PLAYER_1:
+            player1.in_jail = false;
+            player1.turns_in_jail = 0;
+            break;
+          case PLAYER_2:
+            player2.in_jail = false;
+            player2.turns_in_jail = 0;
+            break;
+          case PLAYER_3:
+            player3.in_jail = false;
+            player3.turns_in_jail = 0;
+            break;
+          case PLAYER_4:
+            player4.in_jail = false;
+            player4.turns_in_jail = 0;
+            break;
+          case PLAYER_5:
+            player5.in_jail = false;
+            player5.turns_in_jail = 0;
+            break;
+          case PLAYER_6:
+            player6.in_jail = false;
+            player6.turns_in_jail = 0;
+            break;
+          case PLAYER_7:
+            player7.in_jail = false;
+            player7.turns_in_jail = 0;
+            break;
+          case PLAYER_8:
+            player8.in_jail = false;
+            player8.turns_in_jail = 0;
+            break;
+          default:
+            break;
+      }
+  }
+
+  boolean GetOutOfJail(player_list player) {
+        switch(player) {
+          case PLAYER_1:
+            if (player1.in_jail && player1.turns_in_jail > 0) {
+              player1.turns_in_jail = player1.turns_in_jail - 1;
+              if (player1.turns_in_jail == 0) return true;
+              else return false;
+            } else if (!player1.in_jail) return true;            
+          case PLAYER_2:
+            if (player2.in_jail && player2.turns_in_jail > 0) {
+              player2.turns_in_jail = player2.turns_in_jail - 1;
+              if (player2.turns_in_jail == 0) return true;
+              else return false;
+            } else if (!player2.in_jail) return true; 
+          case PLAYER_3:
+            if (player3.in_jail && player3.turns_in_jail > 0) {
+              player3.turns_in_jail = player3.turns_in_jail - 1;
+              if (player3.turns_in_jail == 0) return true;
+              else return false;
+            } else if (!player3.in_jail) return true; 
+          case PLAYER_4:
+            if (player4.in_jail && player4.turns_in_jail > 0) {
+              player4.turns_in_jail = player4.turns_in_jail - 1;
+              if (player4.turns_in_jail == 0) return true;
+              else return false;
+            } else if (!player4.in_jail) return true; 
+          case PLAYER_5:
+            if (player5.in_jail && player5.turns_in_jail > 0) {
+              player5.turns_in_jail = player5.turns_in_jail - 1;
+              if (player5.turns_in_jail == 0) return true;
+              else return false;
+            } else if (!player5.in_jail) return true; 
+          case PLAYER_6:
+            if (player6.in_jail && player6.turns_in_jail > 0) {
+              player6.turns_in_jail = player6.turns_in_jail - 1;
+              if (player6.turns_in_jail == 0) return true;
+              else return false;
+            } else if (!player6.in_jail) return true; 
+          case PLAYER_7:
+            if (player7.in_jail && player7.turns_in_jail > 0) {
+              player7.turns_in_jail = player7.turns_in_jail - 1;
+              if (player7.turns_in_jail == 0) return true;
+              else return false;
+            } else if (!player7.in_jail) return true; 
+          case PLAYER_8:
+            if (player8.in_jail && player8.turns_in_jail > 0) {
+              player8.turns_in_jail = player8.turns_in_jail - 1;
+              if (player8.turns_in_jail == 0) return true;
+              else return false;
+            } else if (!player8.in_jail) return true; 
+          default:
+            return false;
+      } 
+}
+}
+
+
+enum CommunityChestCards {
+  AdvanceToBoardwalk,
+  AdvanceToGo,
+  AdvanceToIllinoisAvenue,
+  AdvanceToStCharlesPlace,
+  AdvanceToTheNearestRailroad1,
+  AdvanceToTheNearestRailroad2, 
+  AdvanceTtokenToNearestUtility,
+  BankPaysYouDividend$50,
+  GetOutOfJailFree,
+  GoBack3Spaces,
+  GoToJail,
+  EachHousePay$25EachHotelPay$100,
+  SpeedingFine$15,
+  TakeTripToReadingRailroad,    
+  PayEachPlayer$50,    
+  Collect$150;
+
+  private static final Random PRNG = new Random();
+
+  public static CommunityChestCards randomOption()  {
+    CommunityChestCards[] options = values();
+      return options[PRNG.nextInt(options.length)];
+  }
+}
+
+
+
+
 class Properties {
-    Actions brown_1           = new Actions();
-    Actions community_chest_1 = new Actions();
-    Actions brown_2           = new Actions();
-    Actions income_taxes      = new Actions();
-    Actions railroad_1        = new Actions();
-    Actions cyan_1            = new Actions();
-    Actions lucky_1           = new Actions();
-    Actions cyan_2            = new Actions();
-    Actions cyan_3            = new Actions();
-    Actions purple_1          = new Actions();
-    Actions electric_company  = new Actions();
-    Actions purple_2          = new Actions();
-    Actions purple_3          = new Actions();
-    Actions railroad_2        = new Actions();
-    Actions orange_1          = new Actions();
-    Actions community_chest_2 = new Actions();
-    Actions orange_2          = new Actions();
-    Actions orange_3          = new Actions();
-    Actions free_parking      = new Actions();
-    Actions red_1             = new Actions();
-    Actions lucky_2           = new Actions();
-    Actions red_2             = new Actions();
-    Actions red_3             = new Actions();
-    Actions railroad_3        = new Actions();
-    Actions yellow_1          = new Actions();
-    Actions yellow_2          = new Actions();
-    Actions water_company     = new Actions();
-    Actions yellow_3          = new Actions();
-    Actions go_to_jail        = new Actions();
-    Actions green_1           = new Actions();
-    Actions green_2           = new Actions();
-    Actions community_chest_3 = new Actions();
-    Actions green_3           = new Actions();
-    Actions railroad_4        = new Actions();
-    Actions lucky_3           = new Actions();
-    Actions blue_1            = new Actions();
-    Actions luxury_tax        = new Actions();
-    Actions blue_2            = new Actions();
-    Actions start             = new Actions();
+    Actions             brown_1           = new Actions();
+    CommunityChestCards community_chest_1 = CommunityChestCards.randomOption();
+    Actions             brown_2           = new Actions();
+    Actions             income_taxes      = new Actions();
+    Actions             railroad_1        = new Actions();
+    Actions             cyan_1            = new Actions();
+    Actions             lucky_1           = new Actions();
+    Actions             cyan_2            = new Actions();
+    Actions             cyan_3            = new Actions();
+    Jail                jail              = new Jail();
+    Actions             purple_1          = new Actions();
+    Actions             electric_company  = new Actions();
+    Actions             purple_2          = new Actions();
+    Actions             purple_3          = new Actions();
+    Actions             railroad_2        = new Actions();
+    Actions             orange_1          = new Actions();
+    CommunityChestCards community_chest_2 = CommunityChestCards.randomOption();
+    Actions             orange_2          = new Actions();
+    Actions             orange_3          = new Actions();
+    Actions             free_parking      = new Actions();
+    Actions             red_1             = new Actions();
+    Actions             lucky_2           = new Actions();
+    Actions             red_2             = new Actions();
+    Actions             red_3             = new Actions();
+    Actions             railroad_3        = new Actions();
+    Actions             yellow_1          = new Actions();
+    Actions             yellow_2          = new Actions();
+    Actions             water_company     = new Actions();
+    Actions             yellow_3          = new Actions();
+    Actions             go_to_jail        = new Actions();
+    Actions             green_1           = new Actions();
+    Actions             green_2           = new Actions();
+    CommunityChestCards community_chest_3 = CommunityChestCards.randomOption();
+    Actions             green_3           = new Actions();
+    Actions             railroad_4        = new Actions();
+    Actions             lucky_3           = new Actions();
+    Actions             blue_1            = new Actions();
+    Actions             luxury_tax        = new Actions();
+    Actions             blue_2            = new Actions();
+    Actions             start             = new Actions();
 
 
     public void setup()   {
@@ -166,7 +347,6 @@ class Properties {
         brown_1.set_rent(4, 160);
         brown_1.set_rent(5, 250);
         brown_1.set_rent(6, 2);
-        community_chest_1.set_action(action_list.GET_A_COMMUNITY_CARD);
         brown_2.set_unmortage();
         brown_2.set_rent(0, 8);
         brown_2.set_rent(1, 20);
@@ -246,7 +426,6 @@ class Properties {
         orange_1.set_rent(4, 750);
         orange_1.set_rent(5, 950);
         orange_1.set_rent(6, 14);
-        community_chest_2.set_action(action_list.GET_A_COMMUNITY_CARD);
         orange_2.set_unmortage();
         orange_2.set_rent(0, 28);
         orange_2.set_rent(1, 70);
@@ -338,7 +517,6 @@ class Properties {
         green_2.set_rent(4, 1100);
         green_2.set_rent(5, 1275);
         green_2.set_rent(6, 26);
-        community_chest_3.set_action(action_list.GET_A_COMMUNITY_CARD);
         green_3.set_unmortage();
         green_3.set_rent(0, 56);
         green_3.set_rent(1, 150);
