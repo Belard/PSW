@@ -72,7 +72,7 @@ class Information {
           }
     }
 
-    Position send_position() {
+    Position get_position() {
       return position;
     }
 }
