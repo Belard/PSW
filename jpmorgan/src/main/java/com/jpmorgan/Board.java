@@ -7,8 +7,6 @@ class Position {
   boolean PLAYER_4;
   boolean PLAYER_5;
   boolean PLAYER_6;
-  boolean PLAYER_7;
-  boolean PLAYER_8;
 }
 
 enum player_list {
@@ -17,14 +15,12 @@ enum player_list {
   PLAYER_3,
   PLAYER_4,
   PLAYER_5,
-  PLAYER_6,
-  PLAYER_7,
-  PLAYER_8
+  PLAYER_6
 }
 
 class Information {
 
-  Position position;
+  Position position = new Position();
 
   void set_position(player_list player) {
       switch(player) {
@@ -45,12 +41,6 @@ class Information {
             break;
           case PLAYER_6:
             position.PLAYER_6 = true;
-            break;
-          case PLAYER_7:
-            position.PLAYER_7 = true;
-            break;
-          case PLAYER_8:
-            position.PLAYER_8 = true;
             break;
           default:
             break;
@@ -77,12 +67,6 @@ class Information {
             case PLAYER_6:
               position.PLAYER_6 = false;
               break;
-            case PLAYER_7:
-              position.PLAYER_7 = false;
-              break;
-            case PLAYER_8:
-              position.PLAYER_8 = false;
-              break;
             default:
               break;
           }
@@ -103,6 +87,8 @@ public class Board {
     Information lucky_1           = new Information();
     Information cyan_2            = new Information();
     Information cyan_3            = new Information();
+    Information jail              = new Information();
+    Information jail_free         = new Information();
     Information purple_1          = new Information();
     Information electric_company  = new Information();
     Information purple_2          = new Information();
