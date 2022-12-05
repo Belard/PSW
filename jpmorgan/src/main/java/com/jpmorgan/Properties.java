@@ -376,6 +376,7 @@ class Properties {
 
     public void setup()   {
         brown_1.unset_mortage();
+        brown_1.set_owner(player_ownership.BANK);
         brown_1.set_bank_sale_price(60);
         brown_1.set_rent(0, 4);
         brown_1.set_rent(1, 10);
@@ -385,6 +386,7 @@ class Properties {
         brown_1.set_rent(5, 250);
         brown_1.set_rent(6, 2);
         brown_2.unset_mortage();
+        brown_2.set_owner(player_ownership.BANK);
         brown_2.set_bank_sale_price(60);
         brown_2.set_rent(0, 8);
         brown_2.set_rent(1, 20);
@@ -395,12 +397,14 @@ class Properties {
         brown_2.set_rent(6, 4);
         income_taxes.set_rent(0, 200);
         railroad_1.unset_mortage();
+        railroad_1.set_owner(player_ownership.BANK);
         railroad_1.set_bank_sale_price(200);
         railroad_1.set_rent(1, 25);
         railroad_1.set_rent(2, 50);
         railroad_1.set_rent(3, 100);
         railroad_1.set_rent(4, 200);
         cyan_1.unset_mortage();
+        cyan_1.set_owner(player_ownership.BANK);
         cyan_1.set_bank_sale_price(100);
         cyan_1.set_rent(0, 12);
         cyan_1.set_rent(1, 30);
@@ -410,6 +414,7 @@ class Properties {
         cyan_1.set_rent(5, 550);
         cyan_1.set_rent(6, 6);
         cyan_2.unset_mortage();
+        cyan_2.set_owner(player_ownership.BANK);
         cyan_2.set_bank_sale_price(100);
         cyan_2.set_rent(0, 12);
         cyan_2.set_rent(1, 30);
@@ -419,6 +424,7 @@ class Properties {
         cyan_2.set_rent(5, 550);
         cyan_2.set_rent(6, 6);
         cyan_3.unset_mortage();
+        cyan_3.set_owner(player_ownership.BANK);
         cyan_3.set_bank_sale_price(120);
         cyan_3.set_rent(0, 16);
         cyan_3.set_rent(1, 40);
@@ -429,6 +435,7 @@ class Properties {
         cyan_3.set_rent(6, 8);
         jail_free.set_action(action_list.JUST_VISITING);       
         purple_1.unset_mortage();
+        purple_1.set_owner(player_ownership.BANK);
         purple_1.set_bank_sale_price(140);
         purple_1.set_rent(0, 20);
         purple_1.set_rent(1, 50);
@@ -438,10 +445,12 @@ class Properties {
         purple_1.set_rent(5, 750);
         purple_1.set_rent(6, 10);
         electric_company.unset_mortage();
+        electric_company.set_owner(player_ownership.BANK);
         electric_company.set_bank_sale_price(150);
         electric_company.set_rent(1, 4);
         electric_company.set_rent(2, 10);
         purple_2.unset_mortage();
+        purple_2.set_owner(player_ownership.BANK);
         purple_2.set_bank_sale_price(140);
         purple_2.set_rent(0, 20);
         purple_2.set_rent(1, 50);
@@ -451,6 +460,7 @@ class Properties {
         purple_2.set_rent(5, 750);
         purple_2.set_rent(6, 10);
         purple_3.unset_mortage();
+        purple_3.set_owner(player_ownership.BANK);
         purple_3.set_bank_sale_price(160);
         purple_3.set_rent(0, 24);
         purple_3.set_rent(1, 60);
@@ -460,12 +470,14 @@ class Properties {
         purple_3.set_rent(5, 900);
         purple_3.set_rent(6, 12);
         railroad_2.unset_mortage();
+        railroad_2.set_owner(player_ownership.BANK);
         railroad_2.set_bank_sale_price(200);
         railroad_2.set_rent(1, 25);
         railroad_2.set_rent(2, 50);
         railroad_2.set_rent(3, 100);
         railroad_2.set_rent(4, 200);
         orange_1.unset_mortage();
+        orange_1.set_owner(player_ownership.BANK);
         orange_1.set_bank_sale_price(180);
         orange_1.set_rent(0, 28);
         orange_1.set_rent(1, 70);
@@ -475,6 +487,7 @@ class Properties {
         orange_1.set_rent(5, 950);
         orange_1.set_rent(6, 14);
         orange_2.unset_mortage();
+        orange_2.set_owner(player_ownership.BANK);
         orange_2.set_bank_sale_price(180);
         orange_2.set_rent(0, 28);
         orange_2.set_rent(1, 70);
@@ -484,6 +497,7 @@ class Properties {
         orange_2.set_rent(5, 950);
         orange_2.set_rent(6, 14);
         orange_3.unset_mortage();
+        orange_3.set_owner(player_ownership.BANK);
         orange_3.set_bank_sale_price(200);
         orange_3.set_rent(0, 32);
         orange_3.set_rent(1, 80);
@@ -494,6 +508,7 @@ class Properties {
         orange_3.set_rent(6, 16);
         free_parking.set_action(action_list.GET_PARKING_SPOT_MONEY);
         red_1.unset_mortage();
+        red_1.set_owner(player_ownership.BANK);
         red_1.set_bank_sale_price(220);
         red_1.set_rent(0, 36);
         red_1.set_rent(1, 90);
@@ -503,6 +518,7 @@ class Properties {
         red_1.set_rent(5, 1050);
         red_1.set_rent(6, 18);
         red_2.unset_mortage();
+        red_2.set_owner(player_ownership.BANK);
         red_2.set_bank_sale_price(220);
         red_2.set_rent(0, 36);
         red_2.set_rent(1, 90);
@@ -512,6 +528,7 @@ class Properties {
         red_2.set_rent(5, 1050);
         red_2.set_rent(6, 18);
         red_3.unset_mortage();
+        red_3.set_owner(player_ownership.BANK);
         red_3.set_bank_sale_price(240);
         red_3.set_rent(0, 40);
         red_3.set_rent(1, 100);
@@ -521,12 +538,14 @@ class Properties {
         red_3.set_rent(5, 1100);
         red_3.set_rent(6, 20);
         railroad_3.unset_mortage();
+        railroad_3.set_owner(player_ownership.BANK);
         railroad_3.set_bank_sale_price(200);
         railroad_3.set_rent(1, 25);
         railroad_3.set_rent(2, 50);
         railroad_3.set_rent(3, 100);
         railroad_3.set_rent(4, 200);
         yellow_1.unset_mortage();
+        yellow_1.set_owner(player_ownership.BANK);
         yellow_1.set_bank_sale_price(260);
         yellow_1.set_rent(0, 44);
         yellow_1.set_rent(1, 110);
@@ -536,6 +555,7 @@ class Properties {
         yellow_1.set_rent(5, 1150);
         yellow_1.set_rent(6, 22);
         yellow_2.unset_mortage();
+        yellow_2.set_owner(player_ownership.BANK);
         yellow_2.set_bank_sale_price(260);
         yellow_2.set_rent(0, 44);
         yellow_2.set_rent(1, 110);
@@ -545,10 +565,12 @@ class Properties {
         yellow_2.set_rent(5, 1150);
         yellow_2.set_rent(6, 22);
         water_company.unset_mortage();
+        water_company.set_owner(player_ownership.BANK);
         water_company.set_bank_sale_price(150);
         water_company.set_rent(1, 4);
         water_company.set_rent(2, 10);
         yellow_3.unset_mortage();
+        yellow_3.set_owner(player_ownership.BANK);
         yellow_3.set_bank_sale_price(280);
         yellow_3.set_rent(0, 48);
         yellow_3.set_rent(1, 120);
@@ -559,6 +581,7 @@ class Properties {
         yellow_3.set_rent(6, 24);
         go_to_jail.set_action(action_list.GO_TO_JAIL);
         green_1.unset_mortage();
+        green_1.set_owner(player_ownership.BANK);
         green_1.set_bank_sale_price(300);
         green_1.set_rent(0, 52);
         green_1.set_rent(1, 130);
@@ -568,6 +591,7 @@ class Properties {
         green_1.set_rent(5, 1275);
         green_1.set_rent(6, 26);
         green_2.unset_mortage();
+        green_2.set_owner(player_ownership.BANK);
         green_2.set_bank_sale_price(300);
         green_2.set_rent(0, 52);
         green_2.set_rent(1, 130);
@@ -577,6 +601,7 @@ class Properties {
         green_2.set_rent(5, 1275);
         green_2.set_rent(6, 26);
         green_3.unset_mortage();
+        green_3.set_owner(player_ownership.BANK);
         green_3.set_bank_sale_price(320);
         green_3.set_rent(0, 56);
         green_3.set_rent(1, 150);
@@ -586,12 +611,14 @@ class Properties {
         green_3.set_rent(5, 1400);
         green_3.set_rent(6, 28);
         railroad_4.unset_mortage();
+        railroad_4.set_owner(player_ownership.BANK);
         railroad_4.set_bank_sale_price(200);
         railroad_4.set_rent(1, 25);
         railroad_4.set_rent(2, 50);
         railroad_4.set_rent(3, 100);
         railroad_4.set_rent(4, 200);
         blue_1.unset_mortage();
+        blue_1.set_owner(player_ownership.BANK);
         blue_1.set_bank_sale_price(350);
         blue_1.set_rent(0, 70);
         blue_1.set_rent(1, 175);
@@ -602,6 +629,7 @@ class Properties {
         blue_1.set_rent(6, 35);
         luxury_tax.set_rent(0, 100);
         blue_2.unset_mortage();
+        blue_2.set_owner(player_ownership.BANK);
         blue_2.set_bank_sale_price(400);
         blue_2.set_rent(0, 100);
         blue_2.set_rent(1, 200);
