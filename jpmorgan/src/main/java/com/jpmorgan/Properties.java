@@ -1,5 +1,6 @@
 package com.jpmorgan;
 
+import scala.collection.concurrent.TrieMap;
 import scala.util.Random;
 
 enum action_list {
@@ -28,6 +29,7 @@ class Actions {
     boolean mortage;
     int bank_sale_price;
     action_list action;
+    int houses_built = 6;
     class Rent_Price {
         public int    single_tile;
         public int    group;
@@ -46,10 +48,6 @@ class Actions {
     int get_bank_sale_price() {
       return bank_sale_price;
     }
-    int rent() {
-       
-        return 0;
-    }
     void set_action(action_list action_set) {
        
         action = action_set;
@@ -57,6 +55,34 @@ class Actions {
     action_list get_action() {
        
         return action;
+    }
+    void set_group_tile() {
+      houses_built = 0;
+    }
+    //use boolean to confirm
+    boolean unset_group_tile() {
+      if (houses_built == 0) {
+        houses_built = 6;
+        return true;
+      } else return false;
+      
+    }
+    //use boolean to confirm
+    boolean add_house() {
+      if (houses_built != 6 || houses_built != 5) {
+        houses_built ++;
+        return true;
+      } else return false;
+    }
+    //use boolean to confirm
+    boolean remove_house() {
+      if (houses_built != 0 || houses_built != 6) {
+        houses_built --;
+        return true;
+      } else return false;
+    }
+    int get_house() {
+      return houses_built;
     }
     void set_owner(player_ownership owner) {
         ownership = owner;
@@ -91,8 +117,8 @@ class Actions {
               break;
           }
     }
-    int get_rent(int houses) {
-        switch(houses) {
+    int get_rent() {
+        switch(houses_built) {
             case 0:
               return rent.group;
             case 1:
@@ -111,10 +137,6 @@ class Actions {
               return 0;
           }
     }
-    int value() {
-        return 0;
-    }
-
     boolean get_mortage() {
       return mortage;
     }
