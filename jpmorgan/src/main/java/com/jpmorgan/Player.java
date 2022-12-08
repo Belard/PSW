@@ -6,12 +6,19 @@ public class Player {
 
     //Variables
     int money = 0;
+    player_list player_number;
+
 
     //Methods
     String get_player_username(String get_username) {
 
         String username = get_username;
         return username;
+    }
+
+    void setPlayer_number(player_list new_player) {
+
+        player_number = new_player;
     }
 
     int roll_dice(){
@@ -32,4 +39,9 @@ public class Player {
         owner.money = owner.money + property_to_pay_rent.get_rent()
     }
 
+    void build_house(Actions property_to_build_house) {
+
+        property_to_build_house.add_house();
+    }
+    
 }
