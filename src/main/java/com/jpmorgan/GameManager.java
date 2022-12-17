@@ -14,6 +14,8 @@ public class GameManager {
 
     private static final String PLAYER_IMAGES_DIRECTORY = "./src/main/resources/com/jpmorgan/images/player";
 
+    private static final String PLAYER_TOKENS_DIRECTORY = "./src/main/resources/com/jpmorgan/images/playerToken";
+
     private static final int NUM_PLAYERS = 5;
 
     private static GameManager instance;
@@ -40,12 +42,41 @@ public class GameManager {
 
     private void loadPlayers() {
         List<Image> playerImages = loadPlayerImages();
+        List<Image> playerTokens = loadPlayerTokens();
 
-        playerSelf = new Player("Dev", getRandomPlayerImage(playerImages), 600);
+        int x = getRandomPlayerImage(playerImages);
+
+        playerSelf = new Player("Dev", playerImages.remove(x), playerTokens.remove(x) , 600);
 
         for (int i = 1; i <= NUM_PLAYERS; i++) {
-            players.add(new Player("Player " + i, getRandomPlayerImage(playerImages), 600 - (i * 100)));
+            int y = getRandomPlayerImage(playerImages);
+            players.add(new Player("Player " + i, playerImages.remove(y), playerTokens.remove(y) , 600 - (i * 100)));
         }
+    }
+
+    private List<Image> loadPlayerTokens() {
+        List<Image> playerTokensImages = new ArrayList<>();
+
+        File playerTokensDirectory = new File(PLAYER_TOKENS_DIRECTORY);
+
+//        File file2 = new File("./src/main/resources/com");
+//        for(String fileNames : file2.list()) System.out.println(fileNames);
+        
+        if (!playerTokensDirectory.exists()) {
+            System.err.println("Could not locate player tokens directory : " + PLAYER_TOKENS_DIRECTORY);
+        }
+
+        List<File> files = List.of(Objects.requireNonNull(playerTokensDirectory.listFiles()));
+
+        for (File file : files) {
+            try {
+                playerTokensImages.add(new Image(new FileInputStream(file)));
+            } catch (FileNotFoundException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+        return playerTokensImages;
     }
 
     private List<Image> loadPlayerImages() {
@@ -73,10 +104,10 @@ public class GameManager {
         return playerImages;
     }
 
-    private Image getRandomPlayerImage(List<Image> playerImages) {
+    private int getRandomPlayerImage(List<Image> playerImages) {
         int number = (int) Math.floor(Math.random() * (playerImages.size()));
 
-        return playerImages.remove(number);
+        return number;
     }
 
     public List<Player> getPlayers() {

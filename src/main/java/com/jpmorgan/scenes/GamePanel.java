@@ -69,7 +69,7 @@ public class GamePanel {
 
         VBox rightPanel = createRightPanel(playerSelf, otherPlayers);
         createLeftPanel(otherPlayers);
-        ImageView board = createBoard();
+        AnchorPane board = createBoard(playerSelf, otherPlayers);
 
         GridPane gridPane = new GridPane();
         gridPane.add(leftPanel, 0, 0);
@@ -83,17 +83,55 @@ public class GamePanel {
         return anchorPane;
     }
 
-    private ImageView createBoard() {
+    private AnchorPane createBoard(Player playerObj, List<Player> otherPlayers) {
         InputStream image = getClass().getResourceAsStream(IMAGES_DIRECTORY + "board.png");
-
         if (image == null) {
             System.err.println("Could not load board image");
         }
 
         assert image != null;
 
-        return new ImageView(new Image(image));
+        return new AnchorPane(new ImageView(new Image(image)), addPlayerTokens(playerObj, otherPlayers));
     }
+
+    private AnchorPane addPlayerTokens(Player playerObj, List<Player> otherPlayers) {
+        AnchorPane playerTokens;
+        Circle otherPlayerImage;
+
+        //DEV
+        otherPlayerImage = new Circle(20, new ImagePattern(playerObj.getToken()));
+        
+        AnchorPane.setLeftAnchor(otherPlayerImage, 980d);
+        AnchorPane.setTopAnchor(otherPlayerImage, 960d);
+        playerTokens = new AnchorPane(otherPlayerImage);
+
+        
+        //PLAYER 1
+        addTokenInit(playerTokens, 1030d, 960d, otherPlayers.get(0));
+
+        //PLAYER 2
+        addTokenInit(playerTokens, 980d, 1010d, otherPlayers.get(1));
+
+        //PLAYER 3
+        addTokenInit(playerTokens, 1030d, 1010d, otherPlayers.get(2));
+
+        //PLAYER 4
+        addTokenInit(playerTokens, 980d, 1060d, otherPlayers.get(3));
+        
+        //PLAYER 5
+        addTokenInit(playerTokens, 1030d, 1060d, otherPlayers.get(4));
+
+        return playerTokens;
+    }
+
+    private void addTokenInit(AnchorPane root, Double x, Double y, Player player){
+        Circle otherPlayerImage = new Circle(20, new ImagePattern(player.getToken()));
+
+        AnchorPane.setTopAnchor(otherPlayerImage, y);
+        AnchorPane.setLeftAnchor(otherPlayerImage, x);
+        root.getChildren().add(otherPlayerImage);
+    }
+
 
     private void createLeftPanel(List<Player> players) {
         leftPanel.setAlignment(Pos.CENTER);
