@@ -1,6 +1,8 @@
 package com.jpmorgan.scenes;
 
 import com.jpmorgan.GameManager;
+import com.jpmorgan.SceneManager;
+import com.jpmorgan.model.Player2; // para retirar
 import com.jpmorgan.events.OpenManagePopupEvent;
 import com.jpmorgan.model.Player;
 import javafx.geometry.HPos;
@@ -19,12 +21,16 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
+import javafx.stage.Popup;
+import javafx.application.*;
 
 import java.io.*;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class GamePanel {
 
@@ -178,6 +184,8 @@ public class GamePanel {
 
         buttonManage.addEventHandler(MouseEvent.MOUSE_PRESSED,
                 new OpenManagePopupEvent((AnchorPane) nodes.get("anchorPane"), otherPlayers));
+        
+        buttonAdvance.setOnAction(e -> dicesPopUpHandler());
 
         GridPane buttonsGrid = new GridPane();
         buttonsGrid.setHgap(20);
@@ -273,6 +281,62 @@ public class GamePanel {
     private ImageView getImageByPropertyGroup(String propertyGroup) {
         InputStream inputStream = getClass().getResourceAsStream(IMAGES_DIRECTORY + "properties/" + propertyGroup + "_small.png");
 
+        return new ImageView(new Image(inputStream));
+    }
+
+    public void dicesPopUpHandler() {
+        Popup pp = new Popup();
+        pp.setAutoHide(false);
+        pp.setAutoFix(true);
+
+        AnchorPane anchorPane = new AnchorPane();
+        
+        anchorPane.setMinWidth(238);
+        anchorPane.setMinHeight(120);
+        anchorPane.setMaxWidth(238);
+        anchorPane.setMaxHeight(120);
+
+        Player2 dice = Player2.getInstance();
+
+        ImageView firstDice = getImageByDice15(dice.roll_dice());
+        ImageView secondDice = getImageByDice30(dice.roll_dice());
+
+        AnchorPane.setTopAnchor(firstDice, 10.0);
+        AnchorPane.setLeftAnchor(firstDice, 10.0);
+        AnchorPane.setTopAnchor(secondDice, 10.0);
+        AnchorPane.setLeftAnchor(secondDice, 115.0);
+        
+        anchorPane.getStyleClass().add("rectangle33");
+
+        anchorPane.getChildren().add(firstDice);
+        anchorPane.getChildren().add(secondDice);
+
+
+        pp.getContent().add(anchorPane);
+        
+        pp.show(SceneManager.getInstance().getPrimaryStage());
+        
+        Timer timer = new Timer(true);
+        TimerTask tt = new TimerTask() {
+        	
+            public void run() {
+                Platform.runLater(() -> {
+                    pp.hide();
+                });
+
+                //my Logic
+            };
+        };
+        timer.schedule(tt, 2000);	    
+    }
+
+    private ImageView getImageByDice15(int dice) {
+        InputStream inputStream = getClass().getResourceAsStream(IMAGES_DIRECTORY + "dices/" + String.valueOf(dice) + "_15.png");
+        return new ImageView(new Image(inputStream));
+    }
+
+    private ImageView getImageByDice30(int dice) {
+        InputStream inputStream = getClass().getResourceAsStream(IMAGES_DIRECTORY + "dices/" + String.valueOf(dice) + "_-30.png");
         return new ImageView(new Image(inputStream));
     }
 }

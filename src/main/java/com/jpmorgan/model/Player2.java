@@ -1,85 +1,52 @@
 package com.jpmorgan.model;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import scala.util.Random;
 
-class PInfo {
+public class Player2 {
 
-    //Variables
-    int money = 0;
-    player_list player_number;
-    String username;
+    private static Player2 instance;
 
-    //Methods
-    void set_player_username(String get_username) {
+    PInfo player1 = new PInfo();
+    PInfo player2 = new PInfo();
+    PInfo player3 = new PInfo();
+    PInfo player4 = new PInfo();
+    PInfo player5 = new PInfo();
+    PInfo player6 = new PInfo();
 
-        username = get_username;
+    private Map<String, PInfo> playersMap = new HashMap<>() {{
+        put("Player1", player1);
+        put("Player2", player2);
+        put("Player3", player3);
+        put("Player4", player4);
+        put("Player5", player5);
+        put("Player6", player6);
+    }};
+
+    public PInfo getPlayerInstance(String playersName) {
+        if (!playersMap.containsKey(playersName)) {
+            throw new IllegalArgumentException("Could not find player " + playersName);
+        }
+
+        PInfo root = playersMap.get(playersName);
+
+        return root;
     }
-    
-    String get_player_username() {
+   
+    public static Player2 getInstance() {
+        if (instance == null) {
+            instance = new Player2();
+        }
 
-        return username;
+        return instance;
     }
 
-    void set_player_number(player_list new_player) {
-
-        player_number = new_player;
-    }
-
-    player_list get_player_number() {
-
-        return player_number;
-    }
-
-    int roll_dice() {
-
+    public int roll_dice() {
         Random random = new Random();
         return random.nextInt(6)+1;
     }
 
-    int roll_dice_final() {
-        int i = roll_dice();
-        int x = roll_dice();
-        return x + i;
-    }
-
-    void buy_property(Actions property_to_buy, player_list player_buying) {
-
-        property_to_buy.set_owner(player_number);
-        sub_money(property_to_buy.get_bank_sale_price());
-    }
-
-    void add_money(int money_new) {
-        money = money + money_new;
-    }
-
-    void sub_money(int money_new) {
-        money = money - money_new;
-    }
-
-    int get_money() {
-        return money;
-    }
-
-    void pay_rent(PInfo player_renting, int rent) {
-
-        sub_money(rent);
-        player_renting.add_money(rent);
-    }
-
-    void build_house(Actions property_to_build_house) {
-
-        property_to_build_house.add_house();
-    }
-
 }
-
-//public class Player {
-//
-//    Actions player1 = new Actions();
-//    Actions player2 = new Actions();
-//    Actions player3 = new Actions();
-//    Actions player4 = new Actions();
-//    Actions player5 = new Actions();
-//    Actions player6 = new Actions();
-//    
-//}

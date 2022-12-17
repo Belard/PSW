@@ -2,7 +2,6 @@ package com.jpmorgan;
 
 import com.jpmorgan.scenes.GamePanel;
 import com.jpmorgan.scenes.InitialPanel;
-import com.jpmorgan.scenes.OnlinePanel;
 import javafx.scene.Scene;
 import javafx.scene.input.KeyCombination;
 import javafx.scene.layout.AnchorPane;

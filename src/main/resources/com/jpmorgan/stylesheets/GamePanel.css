@@ -3132,3 +3132,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.rectangle33 {
+  background-image:/* webpackIgnore: true */ url('../dice_backgroud.jpeg');
+  position: absolute;
+  left: 435.1904px;
+  top: 460.9995px;
+  width: 238px;
+  height: 120px;
+  outline: solid 4px #000;
+  outline-offset: -4px;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+}

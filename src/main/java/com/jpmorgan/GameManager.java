@@ -86,4 +86,6 @@ public class GameManager {
     public Player getPlayerSelf() {
         return playerSelf;
     }
+
+    
 }
