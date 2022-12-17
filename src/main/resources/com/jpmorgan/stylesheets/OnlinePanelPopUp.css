@@ -1,0 +1,185 @@
+.root {
+    -fx-position: relative;
+    -fx-width: 1920px;
+    -fx-height: 1080px;
+    -fx-align-items: flex-start;
+    -fx-background-image:/* webpackIgnore: true */ url('../images/background.jpeg');
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-overflow: hidden;
+  }
+  .rectangle33 {
+    -fx-position: absolute;
+    -fx-left: 12px;
+    -fx-top: 959px;
+    -fx-width: 151px;
+    -fx-height: 99px;
+    -fx-text-fill: #000;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-height: 99px;
+    -fx-border-color:#000;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-width: 4;
+    -fx-background-color: #f2f2f2;
+    -fx-border-insets: -4;
+  }
+  .bACK {
+    -fx-color: #000;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    -fx-text-transform: uppercase;
+    -fx-position: absolute;
+    -fx-left: 41px;
+    -fx-top: 989px;
+    -fx-width: 93px;
+    -fx-height: 39px;
+    -fx-text-align: center;
+    -fx-align-items: center;
+    -fx-flex-direction: column;
+  }
+  .rectangle36 {
+    -fx-border-color: #f2f2f2;
+    -fx-border-width: 4;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-background-color: #000;
+  }
+  .ellipse8 {
+    -fx-background-radius: 200px;
+    -fx-background-color: #f2f2f2;
+    -fx-position: absolute;
+    -fx-left: 585px;
+    -fx-top: 25px;
+    -fx-width: 72px;
+    -fx-height: 72px;
+    -fx-overflow: visible;
+  }
+  .icon {
+    -fx-width: 100%;
+    -fx-height: 100%;
+  }
+  .nounCross10410981 {
+    -fx-position: absolute;
+    -fx-left: 597px;
+    -fx-top: 39px;
+    -fx-width: 48px;
+    -fx-height: 43px;
+    -fx-background-image:/* webpackIgnore: true */ url('assets/nounCross10410981.png');
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+  }
+  .regras {
+    -fx-text-fill: #fff;
+    -fx-font-size: 64px;
+    -fx-font-weight: bold;
+    -fx-font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    -fx-  'Liberation Sans', sans-serif;
+    -fx-text-transform: uppercase;
+    -fx-position: absolute;
+    -fx-left: 645px;
+    -fx-top: 414px;
+    -fx-width: 422px;
+    -fx-height: 126px;
+    -fx-text-align: center;
+    -fx-align-items: center;
+    -fx-flex-direction: column;
+  }
+  .privadoPOP {
+    -fx-text-fill: #fff;
+    -fx-font-size: 64px;
+    -fx-font-weight: bold;
+    -fx-font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    -fx-  'Liberation Sans', sans-serif;
+    -fx-text-transform: uppercase;
+    -fx-position: absolute;
+    -fx-left: 645px;
+    -fx-top: 660px;
+    -fx-width: 422px;
+    -fx-height: 126px;
+    -fx-text-align: center;
+    -fx-align-items: center;
+    -fx-flex-direction: column;
+  }
+  .rectangle32 {
+    -fx-text-fill: #000;
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+    -fx-position: absolute;
+    -fx-background-radius: 50px;
+    -fx-background-color: #f2f2f2;
+  }
+  .combo-box  {
+    -fx-position: absolute;
+    -fx-font-size: 38px;
+    /*-fx-background-radius: 5, 5, 4, 3;*/
+    -fx-background-radius: 50px;
+    -fx-background-color: #f2f2f2;
+    -fx-font-weight: bold;
+
+  }
+  .combo-box > .list-cell {
+    -fx-text-fill: #000;
+    -fx-alignment: CENTER-RIGHT;
+  }
+  .rectangle37 {
+    -fx-text-fill: #000;
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+    -fx-position: absolute;
+    -fx-background-radius: 50px;
+    -fx-background-color: #f2f2f2;
+  }
+  .rectangle312 {
+    -fx-position: absolute;
+    -fx-left: 1132px;
+    -fx-top: 909px;
+    -fx-width: 151px;
+    -fx-height: 99px;
+    -fx-outline: solid 4px #000;
+    -fx-outline-offset: -4px;
+    -fx-border-radius: 50px;
+    -fx-background-color: #f2f2f2;
+  }
+  .start {
+    -fx-color: #000;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    -fx-text-transform: uppercase;
+    -fx-position: absolute;
+    -fx-left: 1161px;
+    -fx-top: 939px;
+    -fx-width: 93px;
+    -fx-height: 39px;
+    -fx-text-align: center;
+    -fx-align-items: center;
+    -fx-flex-direction: column;
+  }
+  .jogadores {
+    -fx-text-fill: #fff;
+    -fx-font-size: 64px;
+    -fx-font-weight: bold;
+    -fx-font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    -fx-  'Liberation Sans', sans-serif;
+    -fx-text-transform: uppercase;
+    -fx-position: absolute;
+    -fx-left: 645px;
+    -fx-top: 179px;
+    -fx-width: 454px;
+    -fx-height: 126px;
+    -fx-text-align: center;
+    -fx-align-items: center;
+    -fx-flex-direction: column;
+  }
+  .combo-box .arrow, .combo-box .arrow-button{
+    -fx-background-color: transparent;
+}
+
+  
