@@ -1,13 +1,10 @@
 package com.jpmorgan.scenes;
 
 import java.io.InputStream;
-import java.nio.charset.Charset;
 
 import com.jpmorgan.SceneManager;
-import com.jpmorgan.scenes.OnlinePanel.SwitchButton;
 
-import javafx.application.Application; 
-import javafx.scene.Scene; 
+
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
@@ -19,8 +16,6 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Popup;
-import javafx.stage.Stage;
-import scala.util.Random;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.event.EventHandler;

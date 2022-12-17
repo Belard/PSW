@@ -118,5 +118,7 @@ public class GameManager {
         return playerSelf;
     }
 
-    
+    public void movePlayer(int dice) {
+
+    }
 }

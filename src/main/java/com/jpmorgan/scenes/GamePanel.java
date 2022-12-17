@@ -2,6 +2,7 @@ package com.jpmorgan.scenes;
 
 import com.jpmorgan.GameManager;
 import com.jpmorgan.SceneManager;
+import com.jpmorgan.Popups.PlayerToken;
 import com.jpmorgan.model.Player2; // para retirar
 import com.jpmorgan.events.OpenManagePopupEvent;
 import com.jpmorgan.model.Player;
@@ -95,43 +96,28 @@ public class GamePanel {
     }
 
     private AnchorPane addPlayerTokens(Player playerObj, List<Player> otherPlayers) {
-        AnchorPane playerTokens;
-        Circle otherPlayerImage;
+        AnchorPane playerTokens = new AnchorPane();
 
         //DEV
-        otherPlayerImage = new Circle(20, new ImagePattern(playerObj.getToken()));
-        
-        AnchorPane.setLeftAnchor(otherPlayerImage, 980d);
-        AnchorPane.setTopAnchor(otherPlayerImage, 960d);
-        playerTokens = new AnchorPane(otherPlayerImage);
-
+        PlayerToken.getInstance().addTokenInit(playerTokens, 980d, 940d, playerObj);
         
         //PLAYER 1
-        addTokenInit(playerTokens, 1030d, 960d, otherPlayers.get(0));
+        PlayerToken.getInstance().addTokenInit(playerTokens, 1030d, 940d, otherPlayers.get(0));
 
         //PLAYER 2
-        addTokenInit(playerTokens, 980d, 1010d, otherPlayers.get(1));
+        PlayerToken.getInstance().addTokenInit(playerTokens, 980d, 985d, otherPlayers.get(1));
 
         //PLAYER 3
-        addTokenInit(playerTokens, 1030d, 1010d, otherPlayers.get(2));
+        PlayerToken.getInstance().addTokenInit(playerTokens, 1030d, 985d, otherPlayers.get(2));
 
         //PLAYER 4
-        addTokenInit(playerTokens, 980d, 1060d, otherPlayers.get(3));
+        PlayerToken.getInstance().addTokenInit(playerTokens, 980d, 1030d, otherPlayers.get(3));
         
         //PLAYER 5
-        addTokenInit(playerTokens, 1030d, 1060d, otherPlayers.get(4));
+        PlayerToken.getInstance().addTokenInit(playerTokens, 1030d, 1030d, otherPlayers.get(4));
 
         return playerTokens;
     }
-
-    private void addTokenInit(AnchorPane root, Double x, Double y, Player player){
-        Circle otherPlayerImage = new Circle(20, new ImagePattern(player.getToken()));
-
-        AnchorPane.setTopAnchor(otherPlayerImage, y);
-        AnchorPane.setLeftAnchor(otherPlayerImage, x);
-        root.getChildren().add(otherPlayerImage);
-    }
-
 
     private void createLeftPanel(List<Player> players) {
         leftPanel.setAlignment(Pos.CENTER);
@@ -223,7 +209,7 @@ public class GamePanel {
         buttonManage.addEventHandler(MouseEvent.MOUSE_PRESSED,
                 new OpenManagePopupEvent((AnchorPane) nodes.get("anchorPane"), otherPlayers));
         
-        buttonAdvance.setOnAction(e -> dicesPopUpHandler());
+        buttonAdvance.setOnAction(e -> dicesPopUpHandler(playerObj));
 
         GridPane buttonsGrid = new GridPane();
         buttonsGrid.setHgap(20);
@@ -322,7 +308,7 @@ public class GamePanel {
         return new ImageView(new Image(inputStream));
     }
 
-    public void dicesPopUpHandler() {
+    private void dicesPopUpHandler(Player player) {
         Popup pp = new Popup();
         pp.setAutoHide(false);
         pp.setAutoFix(true);
@@ -336,8 +322,11 @@ public class GamePanel {
 
         Player2 dice = Player2.getInstance();
 
-        ImageView firstDice = getImageByDice15(dice.roll_dice());
-        ImageView secondDice = getImageByDice30(dice.roll_dice());
+        int dice_1 = dice.roll_dice();
+        int dice_2 = dice.roll_dice();
+
+        ImageView firstDice = getImageByDice15(dice_1);
+        ImageView secondDice = getImageByDice30(dice_2);
 
         AnchorPane.setTopAnchor(firstDice, 10.0);
         AnchorPane.setLeftAnchor(firstDice, 10.0);
@@ -349,7 +338,6 @@ public class GamePanel {
         anchorPane.getChildren().add(firstDice);
         anchorPane.getChildren().add(secondDice);
 
-
         pp.getContent().add(anchorPane);
         
         pp.show(SceneManager.getInstance().getPrimaryStage());
@@ -360,6 +348,9 @@ public class GamePanel {
             public void run() {
                 Platform.runLater(() -> {
                     pp.hide();
+                    PlayerToken.getInstance().getCircle().get(0).setCenterX(210d);
+                    PlayerToken.getInstance().getCircle().get(0).setCenterY(1032d);
+                    //GameManager.getInstance().movePlayer(dice_1 + dice_2);
                 });
 
                 //my Logic
