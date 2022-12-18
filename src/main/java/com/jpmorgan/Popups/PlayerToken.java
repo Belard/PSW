@@ -501,34 +501,34 @@ public class PlayerToken {
 
         switch (numPlayers) {
             case 1:
-                value = singlePlayerOnTileMap.get("name");
+                value = singlePlayerOnTileMap.get(name);
                 result = value.split("/");
                 PlayerToken.getInstance().getCircle().get(indexCircle).setCenterX(Double.parseDouble(result[0]));
                 PlayerToken.getInstance().getCircle().get(indexCircle).setCenterY(Double.parseDouble(result[1]));
                 PlayerToken.getInstance().getCircle().get(indexCircle).setRotate(rotation);
                 break;
             case 2:
-                if (playerPos == 1) value = doublePlayerOnTileMap1.get("name");
-                if (playerPos == 2) value = doublePlayerOnTileMap2.get("name");
+                if (playerPos == 1) value = doublePlayerOnTileMap1.get(name);
+                if (playerPos == 2) value = doublePlayerOnTileMap2.get(name);
                 result = value.split("/");
                 PlayerToken.getInstance().getCircle().get(indexCircle).setCenterX(Double.parseDouble(result[0]));
                 PlayerToken.getInstance().getCircle().get(indexCircle).setCenterY(Double.parseDouble(result[1]));
                 PlayerToken.getInstance().getCircle().get(indexCircle).setRotate(rotation);
                 break;
             case 3:
-                if (playerPos == 1) value = triplePlayerOnTileMap1.get("name");
-                if (playerPos == 2) value = triplePlayerOnTileMap2.get("name");
-                if (playerPos == 3) value = triplePlayerOnTileMap3.get("name");
+                if (playerPos == 1) value = triplePlayerOnTileMap1.get(name);
+                if (playerPos == 2) value = triplePlayerOnTileMap2.get(name);
+                if (playerPos == 3) value = triplePlayerOnTileMap3.get(name);
                 result = value.split("/");
                 PlayerToken.getInstance().getCircle().get(indexCircle).setCenterX(Double.parseDouble(result[0]));
                 PlayerToken.getInstance().getCircle().get(indexCircle).setCenterY(Double.parseDouble(result[1]));
                 PlayerToken.getInstance().getCircle().get(indexCircle).setRotate(rotation);
                 break;
             case 4:
-                if (playerPos == 1) value = quadruplePlayerOnTileMap1.get("name");
-                if (playerPos == 2) value = quadruplePlayerOnTileMap2.get("name");
-                if (playerPos == 3) value = quadruplePlayerOnTileMap3.get("name");
-                if (playerPos == 4) value = quadruplePlayerOnTileMap4.get("name");
+                if (playerPos == 1) value = quadruplePlayerOnTileMap1.get(name);
+                if (playerPos == 2) value = quadruplePlayerOnTileMap2.get(name);
+                if (playerPos == 3) value = quadruplePlayerOnTileMap3.get(name);
+                if (playerPos == 4) value = quadruplePlayerOnTileMap4.get(name);
                 result = value.split("/");
                 PlayerToken.getInstance().getCircle().get(indexCircle).setCenterX(Double.parseDouble(result[0]));
                 PlayerToken.getInstance().getCircle().get(indexCircle).setCenterY(Double.parseDouble(result[1]));
