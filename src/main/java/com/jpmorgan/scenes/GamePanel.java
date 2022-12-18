@@ -4,7 +4,7 @@ import com.jpmorgan.GameManager;
 import com.jpmorgan.SceneManager;
 import com.jpmorgan.Popups.PlayerToken;
 import com.jpmorgan.model.Player2; // para retirar
-import com.jpmorgan.events.OpenManagePopupEvent;
+import com.jpmorgan.Popups.ManagePopup;
 import com.jpmorgan.model.Player;
 import javafx.geometry.HPos;
 import javafx.geometry.Insets;
@@ -206,9 +206,10 @@ public class GamePanel {
         Button buttonBankrupt = new Button("FALÊNCIA");
         Button buttonAdvance = new Button("AVANÇAR");
 
-        buttonManage.addEventHandler(MouseEvent.MOUSE_PRESSED,
-                new OpenManagePopupEvent((AnchorPane) nodes.get("anchorPane"), otherPlayers));
-        
+        buttonManage.addEventHandler(MouseEvent.MOUSE_PRESSED, mouse -> {
+            (new ManagePopup((AnchorPane) nodes.get("anchorPane"), otherPlayers)).openPopup();
+        });
+
         buttonAdvance.setOnAction(e -> dicesPopUpHandler(playerObj));
         //buttonBankrupt.setOnAction(e -> test());
 
