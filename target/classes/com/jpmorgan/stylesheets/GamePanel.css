@@ -1,0 +1,3146 @@
+.spacePropertyBetterFontPicker.spacePropertyBetterFontPicker {
+  left: 845.534px;
+  top: 931.2638px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+}
+.colorBlock.colorBlock {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #8f2e12;
+}
+.information.information {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0861px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 8.9691px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spaceCommunity.spaceCommunity {
+  left: 758.1231px;
+  top: 931.2638px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+}
+.information2.information2 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.figma {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0856px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.community {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 115.9874px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.icon.icon {
+  left: 24.0001%;
+  right: 23.9999%;
+  top: 34.5236%;
+  bottom: 34.524%;
+}
+.icon {
+  left: 24.0001%;
+  right: 23.9999%;
+  top: 34.5236%;
+  bottom: 34.524%;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.iconStroke.iconStroke {
+  left: 22.0001%;
+  right: 21.9999%;
+  top: 33.3331%;
+  bottom: 33.3336%;
+}
+.iconStroke {
+  left: 22.0001%;
+  right: 21.9999%;
+  top: 33.3331%;
+  bottom: 33.3336%;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.spacePropertyWireframe.spacePropertyWireframe {
+  left: 670.7119px;
+  top: 931.2638px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+}
+.colorBlock2.colorBlock2 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #8f2e12;
+}
+.information3.information3 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName2 {
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0861px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.textBlock {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+}
+.textBlock2 {
+  margin-top: 0;
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+}
+.price2 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 8.9691px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePlan.spacePlan {
+  left: 583.3009px;
+  top: 931.2638px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+}
+.information4.information4 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.planName {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0856px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price3 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 9.9697px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spaceFeature.spaceFeature {
+  left: 495.8897px;
+  top: 931.2638px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+}
+.information5.information5 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.featureName {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0856px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price4 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 9.9697px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyMapMaker.spacePropertyMapMaker {
+  position: relative;
+  top: initial;
+  left: initial;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+}
+.colorBlock3.colorBlock3 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #78c3fa;
+}
+.information6.information6 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName3 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0861px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price5 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 8.9691px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spaceChance.spaceChance {
+  left: 321.1903px;
+  top: 933px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+}
+.information7.information7 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.chance {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0856px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.icon4 {
+  color: #f2f2f2;
+  font-size: 56.3129px;
+  font-weight: bold;
+  font-family: Whyte Inktrap, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - -7.4754px);
+  top: calc(50% - -25.8988px);
+  width: 87px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+}
+.spacePropertyIsometric.spacePropertyIsometric {
+  left: 233.6567px;
+  top: 931.2638px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+}
+.colorBlock4.colorBlock4 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #78c3fa;
+}
+.information8.information8 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName4 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0861px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price6 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 8.9691px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyGetWaves.spacePropertyGetWaves {
+  left: 146.2455px;
+  top: 931.2638px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+}
+.colorBlock5.colorBlock5 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #78c3fa;
+}
+.information9.information9 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName5 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0861px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price7 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 8.9691px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyChart.spacePropertyChart {
+  transform-origin: top left;
+  left: 147.9264px;
+  top: 845.5341px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+}
+.colorBlock6.colorBlock6 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #9f0fc2;
+}
+.information10.information10 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName6 {
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0859px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.textBlock3 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+}
+.textBlock4 {
+  margin-top: 0;
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+}
+.price8 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 8.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyAvatars.spacePropertyAvatars {
+  transform-origin: top left;
+  left: 147.9264px;
+  top: 408.4784px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+}
+.colorBlock7.colorBlock7 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #ff6a16;
+}
+.information11.information11 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName7 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0859px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price9 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 8.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyRemoveBG.spacePropertyRemoveBG {
+  transform-origin: top left;
+  left: 147.9264px;
+  top: 670.7117px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+}
+.colorBlock8.colorBlock8 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #9f0fc2;
+}
+.information12.information12 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName8 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0859px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price10 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 8.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyFeatherIcons.spacePropertyFeatherIcons {
+  transform-origin: top left;
+  left: 147.9264px;
+  top: 233.6565px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+}
+.colorBlock9.colorBlock9 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #ff6a16;
+}
+.information13.information13 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName9 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0859px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price11 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 8.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyStark.spacePropertyStark {
+  transform-origin: top left;
+  left: 147.9264px;
+  top: 583.3008px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+}
+.colorBlock10.colorBlock10 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #9f0fc2;
+}
+.information14.information14 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName10 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0859px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price12 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 8.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyBlobs.spacePropertyBlobs {
+  transform-origin: top left;
+  left: 147.9264px;
+  top: 146.2455px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+}
+.colorBlock11.colorBlock11 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #ff6a16;
+}
+.information15.information15 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName11 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0859px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price13 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 8.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePlan2.spacePlan2 {
+  transform-origin: top left;
+  left: 148.1169px;
+  top: 757.9999px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+}
+.information16.information16 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.planName2 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0858px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price14 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 9.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spaceCommunity2.spaceCommunity2 {
+  transform-origin: top left;
+  left: 147.9264px;
+  top: 321.0674px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+}
+.information17.information17 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.figma2 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0858px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.community2 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 115.9877px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.icon5.icon5 {
+  left: 23.9998%;
+  right: 24.0002%;
+  top: 34.5237%;
+  bottom: 34.5239%;
+}
+.icon5 {
+  left: 23.9998%;
+  right: 24.0002%;
+  top: 34.5237%;
+  bottom: 34.5239%;
+}
+.icon6 {
+  width: 100%;
+  height: 100%;
+}
+.iconStroke2.iconStroke2 {
+  left: 21.9998%;
+  right: 22.0002%;
+  bottom: 33.3334%;
+}
+.iconStroke2 {
+  left: 21.9998%;
+  right: 22.0002%;
+  bottom: 33.3334%;
+}
+.icon7 {
+  width: 100%;
+  height: 100%;
+}
+.spaceFeature2.spaceFeature2 {
+  transform-origin: top left;
+  left: 148.1169px;
+  top: 495.9999px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+}
+.information18.information18 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.featureName2 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0858px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price15 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 9.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyImagePalette.spacePropertyImagePalette {
+  transform-origin: top left;
+  left: 233.6566px;
+  top: 147.9266px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.colorBlock12.colorBlock12 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #f41f1f;
+}
+.information19.information19 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName12 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0861px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price16 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 8.9691px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyMapsicle.spacePropertyMapsicle {
+  transform-origin: top left;
+  left: 408.4788px;
+  top: 147.9266px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.colorBlock13.colorBlock13 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #f41f1f;
+}
+.information20.information20 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName13 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0861px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price17 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 8.9691px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyCharts.spacePropertyCharts {
+  transform-origin: top left;
+  left: 670.7119px;
+  top: 147.9266px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.colorBlock14.colorBlock14 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #ffe81b;
+}
+.information21.information21 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName14 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0861px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price18 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 8.9691px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyVectory3D.spacePropertyVectory3D {
+  transform-origin: top left;
+  left: 495.8897px;
+  top: 147.9266px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.colorBlock15.colorBlock15 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #f41f1f;
+}
+.information22.information22 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName15 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0861px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price19 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 8.9691px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyAutoflow.spacePropertyAutoflow {
+  transform-origin: top left;
+  left: 758.1231px;
+  top: 147.9266px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.colorBlock16.colorBlock16 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #ffe81b;
+}
+.information23.information23 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName16 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0861px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price20 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 8.9691px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyLoremIpsum.spacePropertyLoremIpsum {
+  transform-origin: top left;
+  left: 932.945px;
+  top: 147.9266px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.colorBlock17.colorBlock17 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #ffe81b;
+}
+.information24.information24 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName17 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.0861px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price21 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 8.9691px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spaceFeature3.spaceFeature3 {
+  transform-origin: top left;
+  left: 583.3007px;
+  top: 147.9266px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.information25.information25 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.featureName3 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.086px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price22 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 9.9692px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePlan3.spacePlan3 {
+  transform-origin: top left;
+  left: 845.5337px;
+  top: 147.9266px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.information26.information26 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.planName3 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.086px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price23 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0px);
+  bottom: 9.9692px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spaceChance2.spaceChance2 {
+  transform-origin: top left;
+  left: 321.0676px;
+  top: 147.9266px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.information27.information27 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.chance2 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4201px);
+  top: 10.086px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.icon8 {
+  color: #f2f2f2;
+  font-size: 56.3129px;
+  font-weight: bold;
+  font-family: Whyte Inktrap, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - -7.4754px);
+  top: calc(50% - -25.8988px);
+  width: 87px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+}
+.spacePropertyUnsplash.spacePropertyUnsplash {
+  transform-origin: top left;
+  left: 931.2638px;
+  top: 932.945px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.colorBlock18.colorBlock18 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #1814f8;
+}
+.information28.information28 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName18 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0859px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price24 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 8.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyIconify.spacePropertyIconify {
+  transform-origin: top left;
+  left: 931.2638px;
+  top: 758.1228px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.colorBlock19.colorBlock19 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #1814f8;
+}
+.information29.information29 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName19 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0859px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price25 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 8.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyContentReel.spacePropertyContentReel {
+  transform-origin: top left;
+  left: 931.2638px;
+  top: 495.8898px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.colorBlock20.colorBlock20 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #0faa58;
+}
+.information30.information30 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName20 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0859px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price26 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 8.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyMaterialDesignIco.spacePropertyMaterialDesignIco {
+  transform-origin: top left;
+  left: 931.2638px;
+  top: 321.0674px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.colorBlock21.colorBlock21 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #0faa58;
+}
+.information31.information31 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName21 {
+  color: #f3f5f4;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0859px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price27 {
+  color: #eff3f3;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 8.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spacePropertyFigmotion.spacePropertyFigmotion {
+  transform-origin: top left;
+  left: 931.2638px;
+  top: 233.6565px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.colorBlock22.colorBlock22 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 21.0123px;
+  background-color: #0faa58;
+}
+.information32.information32 {
+  left: 1.681px;
+  top: 26.8957px;
+  width: 84.0491px;
+  height: 117.6687px;
+  background-color: #000;
+}
+.propertyName22 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0859px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price28 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 8.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spaceChance3.spaceChance3 {
+  transform-origin: top left;
+  left: 931.2638px;
+  top: 670.7117px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.information33.information33 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.chance3 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0858px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.icon9 {
+  color: #f2f2f2;
+  font-size: 56.3129px;
+  font-weight: bold;
+  font-family: Whyte Inktrap, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - -7.4754px);
+  top: calc(50% - -25.8988px);
+  width: 87px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+}
+.spaceFeature4.spaceFeature4 {
+  transform-origin: top left;
+  left: 931.2638px;
+  top: 583.3009px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.information34.information34 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.featureName4 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0858px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price29 {
+  color: #f2f2f2;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 9.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.spaceCommunity3.spaceCommunity3 {
+  transform-origin: top left;
+  left: 931.2638px;
+  top: 408.4789px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f2f2f2;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.information35.information35 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.figma3 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0858px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.community3 {
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 115.9877px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.icon10.icon10 {
+  left: 23.9998%;
+  right: 24.0002%;
+  top: 34.5237%;
+  bottom: 34.5239%;
+}
+.icon10 {
+  left: 23.9998%;
+  right: 24.0002%;
+  top: 34.5237%;
+  bottom: 34.5239%;
+}
+.icon11 {
+  width: 100%;
+  height: 100%;
+}
+.iconStroke3.iconStroke3 {
+  left: 21.9998%;
+  right: 22.0002%;
+  bottom: 33.3334%;
+}
+.iconStroke3 {
+  left: 21.9998%;
+  right: 22.0002%;
+  bottom: 33.3334%;
+}
+.icon12 {
+  width: 100%;
+  height: 100%;
+}
+.spacePlan4.spacePlan4 {
+  transform-origin: top left;
+  left: 931.2638px;
+  top: 845.5337px;
+  width: 87.4111px;
+  height: 147.9264px;
+  background-color: #f0f4f5;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.information36.information36 {
+  left: 1.681px;
+  top: 3.362px;
+  width: 84.0491px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.planName4 {
+  color: #f0f4f5;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.4204px);
+  top: 10.0858px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.price30 {
+  color: #f0f4f5;
+  font-size: 5.8834px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 0.0002px);
+  bottom: 9.9694px;
+  width: 67.2393px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.root {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  align-items: flex-start;
+  background-image:/* webpackIgnore: true */ url('assets/macBookAir1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.gameBoard {
+  position: absolute;
+  left: 458.8096px;
+  top: 0;
+  width: 1079.1903px;
+  height: 1079.1903px;
+  align-items: flex-start;
+}
+.cornerGO {
+  transform-origin: top left;
+  position: absolute;
+  left: 932.945px;
+  top: 1079.1899px;
+  width: 146.2454px;
+  height: 146.2454px;
+  align-items: flex-start;
+  background-color: #000;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.background {
+  position: absolute;
+  left: 3.3623px;
+  top: 1.6813px;
+  width: 141.2025px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.arrows {
+  position: absolute;
+  left: 7.735px;
+  top: 13.4482px;
+  width: 23.3624px;
+  height: 85.7301px;
+  overflow: visible;
+}
+.icon13 {
+  width: 100%;
+  height: 100%;
+}
+.gOText {
+  transform-origin: top left;
+  color: #fff;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - -33.7879px);
+  top: 5.8835px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0) translateX(-50%);
+}
+.gO {
+  transform-origin: top left;
+  color: #fff;
+  font-size: 55.4724px;
+  font-weight: bold;
+  font-family: Whyte Inktrap, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 5.7619px);
+  top: 42.0248px;
+  width: 92.13px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0) translateX(-50%);
+}
+.icon14 {
+  position: absolute;
+  left: 605.9941px;
+  top: 993.4598px;
+  width: 41.6697px;
+  height: 23.3624px;
+  overflow: visible;
+}
+.icon15 {
+  width: 100%;
+  height: 100%;
+}
+.frame8 {
+  position: absolute;
+  left: 400.0738px;
+  top: 922.8589px;
+  width: min-content;
+  height: min-content;
+  padding: 8.4049px;
+}
+.cornerJail {
+  position: absolute;
+  left: 0.0001px;
+  top: 932.9448px;
+  width: 146.2454px;
+  height: 146.2454px;
+  align-items: flex-start;
+  background-color: #f2f2f2;
+}
+.background2 {
+  position: absolute;
+  left: 3.3621px;
+  top: 1.6812px;
+  width: 141.2025px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.just {
+  transform-origin: top left;
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 50.8866px);
+  top: 12.6074px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: matrix(0, 1, -1, 0, 0, 0) translateX(-50%);
+}
+.observing {
+  transform-origin: top left;
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - -23.9541px);
+  top: 120.1907px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: matrix(1, 0, 0, 1, 0, 0) translateX(-50%);
+}
+.cornerFreeAccount {
+  transform-origin: top left;
+  position: absolute;
+  left: 146.2455px;
+  top: 0;
+  width: 146.2454px;
+  height: 146.2454px;
+  align-items: flex-start;
+  background-color: #f2f2f2;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+}
+.background3 {
+  position: absolute;
+  left: 3.362px;
+  top: 1.681px;
+  width: 141.2025px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.starter {
+  transform-origin: top left;
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - -31.35px);
+  top: 8.249px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0) translateX(-50%);
+}
+.account {
+  transform-origin: top left;
+  color: #f2f2f2;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 37.6223px);
+  top: 78.5647px;
+  width: 73.1227px;
+  height: 14.3305px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0) translateX(-50%);
+}
+.cornerGoToPresenting {
+  transform-origin: top left;
+  position: absolute;
+  left: 1079.1905px;
+  top: 146.2456px;
+  width: 146.2454px;
+  height: 146.2454px;
+  align-items: flex-start;
+  background-color: #f2f2f2;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.background4 {
+  position: absolute;
+  left: 3.362px;
+  top: 1.681px;
+  width: 141.2025px;
+  height: 141.2025px;
+  background-color: #000;
+}
+.goTo {
+  transform-origin: top left;
+  color: #eff4f7;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - -36.3927px);
+  top: 3.2061px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0) translateX(-50%);
+}
+.presentMode {
+  transform-origin: top left;
+  color: #eff4f7;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 34.7849px);
+  top: 78.2477px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0) translateX(-50%);
+}
+.pngegg1 {
+  transform-origin: top left;
+  position: absolute;
+  left: 78.5494px;
+  top: 13.5294px;
+  width: 82.6616px;
+  height: 83.885px;
+  background-image:/* webpackIgnore: true */ url('assets/pngegg1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0);
+}
+.pngegg11 {
+  transform-origin: top left;
+  position: absolute;
+  left: 127.7545px;
+  top: 71.0485px;
+  width: 77.4899px;
+  height: 75.7695px;
+  background-image:/* webpackIgnore: true */ url('assets/pngegg11.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(-0.7071, 0.7071, -0.7071, -0.7071, 0, 0);
+}
+.outline {
+  transform-origin: top left;
+  position: absolute;
+  left: 671.5524px;
+  top: 778.139px;
+  width: 180.7056px;
+  height: 109.2638px;
+  outline: solid 6.7239px #f44e1f;
+  background-color: #000;
+  transform: matrix(0.7071, -0.7071, 0.7071, 0.7071, 0, 0);
+}
+.title {
+  transform-origin: top left;
+  color: #000;
+  font-size: 9.2454px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - -183.552px);
+  top: 723.0791px;
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: matrix(0.7071, -0.7071, 0.7071, 0.7071, 0, 0) translateX(-50%);
+}
+.unnamed {
+  transform-origin: top left;
+  color: #f44e1f;
+  font-size: 56.3129px;
+  font-weight: bold;
+  font-family: Whyte Inktrap, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - -241.5795px);
+  top: calc(50% - -222.0692px);
+  width: 73.1227px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: matrix(0.7071, -0.7071, 0.7071, 0.7071, 0, 0) translate(-50%, -50%);
+}
+.outline2 {
+  transform-origin: top left;
+  position: absolute;
+  left: 200.8774px;
+  top: 320.7528px;
+  width: 194.7435px;
+  height: 127.7546px;
+  outline: solid 6.7239px #699cf8;
+  outline-offset: -7px;
+  background-color: #000;
+  transform: matrix(0.7071, -0.7071, 0.7071, 0.7071, 0, 0);
+}
+.icon16 {
+  position: absolute;
+  left: 26.324%;
+  right: 67.9487%;
+  top: 24.6719%;
+  bottom: 69.6007%;
+  overflow: visible;
+}
+.icon17 {
+  width: 100%;
+  height: 100%;
+}
+.image7 {
+  transform-origin: top left;
+  position: absolute;
+  left: 104.1904px;
+  top: 772px;
+  width: 59px;
+  height: 59px;
+  background-image:/* webpackIgnore: true */ url('assets/image7.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+}
+.image8 {
+  transform-origin: top left;
+  position: absolute;
+  left: 99.1904px;
+  top: 507px;
+  width: 64px;
+  height: 64px;
+  background-image:/* webpackIgnore: true */ url('assets/image8.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+}
+.image82 {
+  transform-origin: top left;
+  position: absolute;
+  left: 972.1904px;
+  top: 571px;
+  width: 64px;
+  height: 64px;
+  background-image:/* webpackIgnore: true */ url('assets/image82.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.image6 {
+  transform-origin: top left;
+  position: absolute;
+  left: 825.1904px;
+  top: 85px;
+  width: 47px;
+  height: 47px;
+  background-image:/* webpackIgnore: true */ url('assets/image6.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.image2 {
+  transform-origin: top left;
+  position: absolute;
+  left: 977.4911px;
+  top: 828.5454px;
+  width: 62.1963px;
+  height: 57.9939px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-image:/* webpackIgnore: true */ url('assets/image2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.image1 {
+  transform-origin: top left;
+  position: absolute;
+  left: 508.4973px;
+  top: 975.6318px;
+  width: 63.0368px;
+  height: 49.589px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.image3 {
+  transform-origin: top left;
+  position: absolute;
+  left: 106.7424px;
+  top: 769.7108px;
+  width: 63.8773px;
+  height: 63.8773px;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+}
+.image9 {
+  transform-origin: top left;
+  position: absolute;
+  left: 571.1904px;
+  top: 103px;
+  width: 64px;
+  height: 64px;
+  background-image:/* webpackIgnore: true */ url('assets/image9.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.image10 {
+  position: absolute;
+  left: 507.1904px;
+  top: 970px;
+  width: 64px;
+  height: 64px;
+  background-image:/* webpackIgnore: true */ url('assets/image10.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image5 {
+  transform-origin: top left;
+  position: absolute;
+  left: 556.3628px;
+  top: 874.8281px;
+  width: 154.443px;
+  height: 161.7336px;
+  background-image:/* webpackIgnore: true */ url('assets/image5.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0);
+}
+.rectangle10 {
+  position: absolute;
+  left: 37px;
+  top: 718px;
+  width: 371px;
+  height: 116px;
+  overflow: visible;
+}
+.icon18 {
+  width: 100%;
+  height: 100%;
+}
+.rectangle11 {
+  position: absolute;
+  left: 198px;
+  top: 785px;
+  width: 178px;
+  height: 36px;
+  overflow: visible;
+}
+.icon19 {
+  width: 100%;
+  height: 100%;
+}
+._230 {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 252px;
+  top: 788px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.ellipse5 {
+  position: absolute;
+  left: 78px;
+  top: 656px;
+  width: 126px;
+  height: 126px;
+  overflow: visible;
+}
+.icon20 {
+  width: 100%;
+  height: 100%;
+}
+.nounMonopolyShoe3315165 {
+  position: absolute;
+  left: 91px;
+  top: 669px;
+  width: 100px;
+  height: 100px;
+  background-image:/* webpackIgnore: true */ url('assets/nounMonopolyShoe3315165.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ellipse6 {
+  position: absolute;
+  left: 1610px;
+  top: 11px;
+  width: 235px;
+  height: 235px;
+  overflow: visible;
+}
+.icon21 {
+  width: 100%;
+  height: 100%;
+}
+.nounGame28380671 {
+  position: absolute;
+  left: 1620px;
+  top: 32px;
+  width: 214px;
+  height: 192px;
+  background-image:/* webpackIgnore: true */ url('assets/nounGame28380671.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle12 {
+  position: absolute;
+  left: 1565px;
+  top: 278px;
+  width: 324px;
+  height: 519px;
+  outline: solid 4px #f2f2f2;
+  outline-offset: -4px;
+  border-radius: 50px;
+  background-color: #000;
+}
+.rectangle27 {
+  position: absolute;
+  left: 1612px;
+  top: 715px;
+  width: 230px;
+  height: 67px;
+  outline: solid 7px #000;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.rectangle25 {
+  position: absolute;
+  left: 1583px;
+  top: 632px;
+  width: 129px;
+  height: 67px;
+  outline: solid 7px #383838;
+  outline-offset: -7px;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.rectangle26 {
+  position: absolute;
+  left: 1740px;
+  top: 632px;
+  width: 129px;
+  height: 67px;
+  outline: solid 7px #c4c4c4;
+  outline-offset: -7px;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.rectangle21 {
+  position: absolute;
+  left: 1740px;
+  top: 468px;
+  width: 129px;
+  height: 67px;
+  outline: solid 7px #ffe81b;
+  outline-offset: -7px;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.rectangle22 {
+  position: absolute;
+  left: 1583px;
+  top: 468px;
+  width: 129px;
+  height: 67px;
+  outline: solid 7px #f41f1f;
+  outline-offset: -7px;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.rectangle23 {
+  position: absolute;
+  left: 1583px;
+  top: 554px;
+  width: 129px;
+  height: 67px;
+  outline: solid 7px #0faa58;
+  outline-offset: -7px;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.rectangle24 {
+  position: absolute;
+  left: 1740px;
+  top: 554px;
+  width: 129px;
+  height: 67px;
+  outline: solid 7px #1814f8;
+  outline-offset: -7px;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.rectangle18 {
+  position: absolute;
+  left: 1740px;
+  top: 296px;
+  width: 129px;
+  height: 67px;
+  outline: solid 7px #78c3fa;
+  outline-offset: -7px;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.rectangle13 {
+  position: absolute;
+  left: 1565px;
+  top: 829px;
+  width: 148px;
+  height: 112px;
+  outline: solid 4px #f2f2f2;
+  outline-offset: -4px;
+  border-radius: 50px;
+  background-color: #000;
+}
+.gerir {
+  -fx-color: #fff;
+  -fx-font-size: 24px;
+  -fx-font-weight: bold;
+  -fx-font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  -fx-text-transform: uppercase;
+  -fx-position: absolute;
+  -fx-left: 1553px;
+  -fx-top: 866px;
+  -fx-width: 173px;
+  -fx-height: 56px;
+  -fx-text-align: center;
+  -fx-align-items: center;
+  -fx-flex-direction: column;
+}
+.rectangle14 {
+  position: absolute;
+  left: 1741px;
+  top: 824px;
+  width: 148px;
+  height: 112px;
+  outline: solid 4px #f2f2f2;
+  outline-offset: -4px;
+  border-radius: 50px;
+  background-color: #000;
+}
+.trocas {
+  -fx-color: #fff;
+  -fx-font-size: 24px;
+  -fx-font-weight: bold;
+  -fx-font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  -fx-text-transform: uppercase;
+  -fx-position: absolute;
+  -fx-left: 1729px;
+  -fx-top: 866px;
+  -fx-width: 173px;
+  -fx-height: 56px;
+  -fx-text-align: center;
+  -fx-align-items: center;
+  -fx-flex-direction: column;
+}
+.rectangle15 {
+  position: absolute;
+  left: 1565px;
+  top: 950px;
+  width: 148px;
+  height: 112px;
+  outline: solid 4px #f2f2f2;
+  outline-offset: -4px;
+  border-radius: 50px;
+  background-color: #000;
+}
+.falencia {
+  -fx-color: #ec1b1b;
+  -fx-font-size: 24px;
+  -fx-font-weight: bold;
+  -fx-font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  -fx-text-transform: uppercase;
+  -fx-position: absolute;
+  -fx-left: 1556px;
+  -fx-top: 993px;
+  -fx-width: 173px;
+  -fx-height: 56px;
+  -fx-text-align: center;
+  -fx-align-items: center;
+  -fx-flex-direction: column;
+}
+.rectangle16 {
+  position: absolute;
+  left: 1741px;
+  top: 945px;
+  width: 148px;
+  height: 112px;
+  outline: solid 4px #f2f2f2;
+  outline-offset: -4px;
+  border-radius: 50px;
+  background-color: #000;
+}
+.avancar {
+  -fx-color: #fff;
+  -fx-font-size: 24px;
+  -fx-font-weight: bold;
+  -fx-font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  -fx-text-transform: uppercase;
+  -fx-position: absolute;
+  -fx-left: 1729px;
+  -fx-top: 988px;
+  -fx-width: 173px;
+  -fx-height: 56px;
+  -fx-text-align: center;
+  -fx-align-items: center;
+  -fx-flex-direction: column;
+}
+.rectangle17 {
+  position: absolute;
+  left: 1583px;
+  top: 296px;
+  width: 129px;
+  height: 67px;
+  outline: solid 7px #8f2e12;
+  outline-offset: -7px;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.rectangle19 {
+  position: absolute;
+  left: 1583px;
+  top: 382px;
+  width: 129px;
+  height: 67px;
+  outline: solid 7px #9f0fc2;
+  outline-offset: -7px;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.rectangle20 {
+  position: absolute;
+  left: 1740px;
+  top: 382px;
+  width: 129px;
+  height: 67px;
+  outline: solid 7px #ff6a16;
+  outline-offset: -7px;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.rectangle28 {
+  position: absolute;
+  left: 37px;
+  top: 930px;
+  width: 371px;
+  height: 116px;
+  overflow: visible;
+}
+.icon22 {
+  width: 100%;
+  height: 100%;
+}
+.rectangle29 {
+  position: absolute;
+  left: 198px;
+  top: 997px;
+  width: 178px;
+  height: 36px;
+  overflow: visible;
+}
+.icon23 {
+  width: 100%;
+  height: 100%;
+}
+._2302 {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 252px;
+  top: 1000px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.ellipse7 {
+  position: absolute;
+  left: 78px;
+  top: 868px;
+  width: 126px;
+  height: 126px;
+  overflow: visible;
+}
+.icon24 {
+  width: 100%;
+  height: 100%;
+}
+.nounMonopolyShoe3315164 {
+  position: absolute;
+  left: 84px;
+  top: 879px;
+  width: 113px;
+  height: 90px;
+  background-image:/* webpackIgnore: true */ url('assets/nounMonopolyShoe3315164.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle102 {
+  position: absolute;
+  left: 37px;
+  top: 506px;
+  width: 371px;
+  height: 116px;
+  overflow: visible;
+}
+.icon25 {
+  width: 100%;
+  height: 100%;
+}
+.rectangle112 {
+  position: absolute;
+  left: 198px;
+  top: 573px;
+  width: 178px;
+  height: 36px;
+  overflow: visible;
+}
+.icon26 {
+  width: 100%;
+  height: 100%;
+}
+._2303 {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 252px;
+  top: 576px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.ellipse52 {
+  position: absolute;
+  left: 78px;
+  top: 444px;
+  width: 126px;
+  height: 126px;
+  overflow: visible;
+}
+.icon27 {
+  width: 100%;
+  height: 100%;
+}
+.nounMonopolyShoe3315163 {
+  position: absolute;
+  left: 91px;
+  top: 459px;
+  width: 100px;
+  height: 100px;
+  background-image:/* webpackIgnore: true */ url('assets/nounMonopolyShoe3315163.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle103 {
+  position: absolute;
+  left: 37px;
+  top: 294px;
+  width: 371px;
+  height: 116px;
+  overflow: visible;
+}
+.icon28 {
+  width: 100%;
+  height: 100%;
+}
+.rectangle113 {
+  position: absolute;
+  left: 198px;
+  top: 361px;
+  width: 178px;
+  height: 36px;
+  overflow: visible;
+}
+.icon29 {
+  width: 100%;
+  height: 100%;
+}
+._2304 {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 252px;
+  top: 364px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.ellipse53 {
+  position: absolute;
+  left: 78px;
+  top: 232px;
+  width: 126px;
+  height: 126px;
+  overflow: visible;
+}
+.icon30 {
+  width: 100%;
+  height: 100%;
+}
+.nounMonopolyShoe3315162 {
+  position: absolute;
+  left: 91px;
+  top: 245px;
+  width: 100px;
+  height: 100px;
+  background-image:/* webpackIgnore: true */ url('assets/nounMonopolyShoe3315162.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle104 {
+  position: absolute;
+  left: 37px;
+  top: 82px;
+  width: 371px;
+  height: 116px;
+  overflow: visible;
+}
+.icon31 {
+  width: 100%;
+  height: 100%;
+}
+.rectangle114 {
+  position: absolute;
+  left: 198px;
+  top: 149px;
+  width: 178px;
+  height: 36px;
+  overflow: visible;
+}
+.icon32 {
+  width: 100%;
+  height: 100%;
+}
+._2305 {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 252px;
+  top: 152px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.ellipse54 {
+  position: absolute;
+  left: 78px;
+  top: 20px;
+  width: 126px;
+  height: 126px;
+  overflow: visible;
+}
+.icon33 {
+  width: 100%;
+  height: 100%;
+}
+.nounMonopolyShoe3315161 {
+  position: absolute;
+  left: 91px;
+  top: 32px;
+  width: 100px;
+  height: 100px;
+  background-image:/* webpackIgnore: true */ url('assets/nounMonopolyShoe3315161.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle33 {
+  background-image:/* webpackIgnore: true */ url('../dice_backgroud.jpeg');
+  position: absolute;
+  left: 435.1904px;
+  top: 460.9995px;
+  width: 238px;
+  height: 120px;
+  outline: solid 4px #000;
+  outline-offset: -4px;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+}

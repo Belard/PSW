@@ -1,0 +1,51 @@
+.root {
+  -fx-position: relative;
+  -fx-width: 1920px;
+  -fx-height: 1080px;
+  -fx-align-items: flex-start;
+  -fx-background-image:/* webpackIgnore: true */ url('../background.jpeg');
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: cover;
+  -fx-overflow: hidden;
+}
+.jPMorgan {
+  -fx-text-fill: #fff;
+  -fx-font-size: 128px;
+  -fx-font-weight: bold;
+  -fx-position: absolute;
+  -fx-alignment: center;
+}
+.rectangle28 {
+  -fx-text-fill: #fff;
+  -fx-font-size: 64px;
+  -fx-font-weight: bold;
+  -fx-border-color: #f2f2f2;
+  -fx-border-radius: 50px;
+  -fx-border: 12px;
+  -fx-background-radius: 50px;
+  -fx-background-color: #000;
+}
+.rectangle28:hover {
+  -fx-text-fill: #000;
+	-fx-background-color:#f2f2f2;
+  -fx-border-radius: 50px;
+
+}
+
+.rectangle29 {
+  -fx-position: absolute;
+  -fx-text-fill: #fff;
+  -fx-font-size: 64px;
+  -fx-font-weight: bold;
+  -fx-border-color: #f2f2f2;
+  -fx-border-radius: 50px;
+  -fx-background-radius: 50px;
+  -fx-background-color: #000;
+}
+.rectangle29:hover {
+  -fx-text-fill: #000;
+	-fx-background-color:#f2f2f2;
+  -fx-border-radius: 50px;
+
+}
