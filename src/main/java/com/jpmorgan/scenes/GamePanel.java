@@ -210,6 +210,7 @@ public class GamePanel {
                 new OpenManagePopupEvent((AnchorPane) nodes.get("anchorPane"), otherPlayers));
         
         buttonAdvance.setOnAction(e -> dicesPopUpHandler(playerObj));
+        //buttonBankrupt.setOnAction(e -> test());
 
         GridPane buttonsGrid = new GridPane();
         buttonsGrid.setHgap(20);
@@ -308,6 +309,21 @@ public class GamePanel {
         return new ImageView(new Image(inputStream));
     }
 
+    /*private void test() {
+        PlayerToken.getInstance().getCircle().get(0).setCenterX(135d);
+        PlayerToken.getInstance().getCircle().get(0).setCenterY(100d);
+        PlayerToken.getInstance().getCircle().get(0).setRotate(0);
+        PlayerToken.getInstance().getCircle().get(1).setCenterX(135d);
+        PlayerToken.getInstance().getCircle().get(1).setCenterY(50d);
+        PlayerToken.getInstance().getCircle().get(1).setRotate(0);
+        PlayerToken.getInstance().getCircle().get(2).setCenterX(90d);
+        PlayerToken.getInstance().getCircle().get(2).setCenterY(100d);
+        PlayerToken.getInstance().getCircle().get(2).setRotate(0);
+        PlayerToken.getInstance().getCircle().get(3).setCenterX(90d);
+        PlayerToken.getInstance().getCircle().get(3).setCenterY(50d);
+        PlayerToken.getInstance().getCircle().get(3).setRotate(0);
+    } */
+
     private void dicesPopUpHandler(Player player) {
         Popup pp = new Popup();
         pp.setAutoHide(false);
@@ -348,9 +364,8 @@ public class GamePanel {
             public void run() {
                 Platform.runLater(() -> {
                     pp.hide();
-                    PlayerToken.getInstance().getCircle().get(0).setCenterX(210d);
-                    PlayerToken.getInstance().getCircle().get(0).setCenterY(1032d);
-                    //GameManager.getInstance().movePlayer(dice_1 + dice_2);
+
+                    GameManager.getInstance().movePlayer(dice_1 + dice_2, player.getTile());
                 });
 
                 //my Logic

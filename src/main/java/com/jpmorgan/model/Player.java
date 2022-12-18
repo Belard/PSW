@@ -14,14 +14,17 @@ public class Player {
     private final Image token;
 
     private int balance;
+    
+    private int tile;
 
     List<Property> properties = new ArrayList<>();
 
-    public Player(String name, Image icon, Image token, int balance) {
+    public Player(String name, Image icon, Image token, int balance, int tile) {
         this.name = name;
         this.icon = icon;
         this.token = token;
         this.balance = balance;
+        this.tile = tile;
     }
 
 	public String getName() {
@@ -40,10 +43,20 @@ public class Player {
         return balance;
     }
 
+    public int getTile() {
+        return tile;
+    }
+
     public int changeBalance(int balance) {
         this.balance += balance;
 
         return this.balance;
+    }
+
+    public int changeTile(int tile) {
+        this.tile = tile;
+
+        return this.tile;
     }
 
     public List<Property> getProperties() {
