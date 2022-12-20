@@ -203,7 +203,7 @@ public class GameManager {
         else GameManager.getInstance().getPlayers().get(getPlayerPlaying() - 1).changeTile(newLocation);
 
         for (int i = 1; i <= GameManager.getInstance().getBoard().get(newLocation).getPlayers().size(); i++) {
-            PlayerToken.getInstance().moveTokens(GameManager.getInstance().getBoard().get(newLocation).getPlayers().size(), i, GameManager.getInstance().getBoard().get(newLocation).getName(), GameManager.getInstance().getBoard().get(newLocation).getPlayers().get(i+1), PlayerToken.getInstance().getRotation(location));
+            PlayerToken.getInstance().moveTokens(GameManager.getInstance().getBoard().get(newLocation).getPlayers().size(), i, GameManager.getInstance().getBoard().get(newLocation).getName(), GameManager.getInstance().getBoard().get(newLocation).getPlayers().get(i-1), PlayerToken.getInstance().getRotation(newLocation));
         }
     }
 }

@@ -51,7 +51,7 @@ public class TradingPopup extends Popup {
 
     @Override
     protected Node createContent() {
-        Image closeImage = new Image(Objects.requireNonNull(getClass().getResourceAsStream(IMAGES_DIRECTORY + "close.png")));
+        Image closeImage = new Image(Objects.requireNonNull(getClass().getResourceAsStream(IMAGES_DIRECTORY + "cross.png")));
 
         Circle closeButton = new Circle(36);
         closeButton.setFill(new ImagePattern(closeImage));
